@@ -1,7 +1,7 @@
-# 🍕 Fornello - Food Delivery App
+# 🍕 Continental Cafe - Food Delivery App
 
 A modern and responsive food delivery frontend application built using React.js. 
-Fornello is designed for food lovers to explore different food categories, add items to their cart, and place orders through a simple and intuitive interface.
+Continental Cafe is designed for food lovers to explore different food categories, add items to their cart, and place orders through a simple and intuitive interface.
 
 ---
 
