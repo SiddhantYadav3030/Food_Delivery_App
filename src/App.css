@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f6f1e4;
+  color: #211f1b;
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+  background: #211f1b;
+  color: white;
+  padding: 24px 40px;
+}
+
+.navbar-content {
+  max-width: 1200px;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 38px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.tagline {
+  color: #e3a438;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.restaurant-info {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.restaurant-info span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* MENU PAGE */
+
+.menu-page {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* CATEGORY BUTTONS */
+
+.category-tabs {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.category-tabs button {
+  border: 1px solid #c0392b;
+  background: transparent;
+  color: #c0392b;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.category-tabs button:hover {
+  background: #c0392b;
+  color: white;
+}
+
+/* FOOD GRID */
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* FOOD CARD */
+
+.food-card {
+  background: #fffdf7;
+  border: 1px solid #e4dcc6;
+  border-radius: 12px;
+  padding: 18px;
+  min-height: 230px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  transition: 0.2s;
+}
+
+.food-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.food-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.food-icon {
+  width: 50px;
+  height: 50px;
+
+  background: #f6f1e4;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 25px;
+}
+
+.food-card h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.food-card p {
+  margin: 5px 0;
+}
+
+.food-description {
+  color: #5a5546;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* BUTTONS */
+
+.food-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.food-actions button {
+  width: 32px;
+  height: 32px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #c0392b;
+  color: white;
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.food-actions button:hover {
+  background: #9e2e20;
+}
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .navbar-content {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .restaurant-info {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .menu-grid {
+    grid-template-columns: 1fr;
+  }
+}
