@@ -1,16 +1,100 @@
-# React + Vite
+# 🍕 Fornello - Food Delivery App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive food delivery frontend application built using React.js. 
+Fornello is designed for food lovers to explore different food categories, add items to their cart, and place orders through a simple and intuitive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
 
-## React Compiler
+🔗 Coming Soon
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📸 Project Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Add your project screenshots here.
+
+![Fornello Food Delivery App](./Image_App.png)
+
+---
+
+## ✨ Features
+
+- 🍕 Browse food items by categories
+- 🧀 Multiple food categories:
+  - Antipasti
+  - Pizza
+  - Pasta
+  - Dolci
+  - Bevande
+- 🛒 Add food items to cart
+- ➕ Increase food quantity
+- ➖ Decrease food quantity
+- 💰 Dynamic cart management
+- 📱 Responsive design for different screen sizes
+- 🎨 Clean and modern user interface
+- ⚡ Fast and smooth React-based frontend
+- 🧩 Component-based architecture
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React.js
+- JavaScript
+- HTML5
+- CSS3
+
+### Libraries
+
+- Lucide React
+- React Context API
+
+### Tools
+
+- Vite
+- Git
+- GitHub
+- VS Code
+
+---
+
+## 📂 Project Structure
+
+```text
+food-app/
+│
+├── public/
+│
+├── src/
+│   │
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   ├── FoodCard.jsx
+│   │   ├── Navbar.jsx
+│   │   └── footer.jsx
+│   │
+│   ├── contexts/
+│   │   └── CartContext.jsx
+│   │
+│   ├── data/
+│   │   └── menu.js
+│   │
+│   ├── pages/
+│   │   ├── home.jsx
+│   │   ├── menu.jsx
+│   │   ├── cart.jsx
+│   │   └── checkout.jsx
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── package.json
+├── package-lock.json
+└── README.md
